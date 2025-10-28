@@ -46,6 +46,7 @@ app.use(
         "http://localhost:8080",
         "https://teacher-job-frontend.vercel.app",
         "https://www.teacherjob.in",
+        "https://teacher-job.vercel.app"
       ];
       if (!origin || allowedOrigins.includes(origin)) {
         callback(null, true);
